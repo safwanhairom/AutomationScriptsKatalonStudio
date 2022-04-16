@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick='addToCart(1)']</value>
+         <value>//div[@id='tbodyid']/div[2]/div/a</value>
       </entry>
       <entry>
          <key>CSS</key>

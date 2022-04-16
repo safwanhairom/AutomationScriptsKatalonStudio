@@ -6,12 +6,12 @@
    <elementGuidId>bdef63e6-1cf3-4d0e-8bd8-832252035a9c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[9]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#logInModal > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[9]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

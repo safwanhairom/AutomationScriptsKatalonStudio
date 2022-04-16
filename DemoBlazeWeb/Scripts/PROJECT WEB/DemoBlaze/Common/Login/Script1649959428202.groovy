@@ -29,5 +29,5 @@ WebUI.setEncryptedText(findTestObject('Object Repository/login-logout/Page_STORE
 
 WebUI.click(findTestObject('Object Repository/login-logout/Page_STORE/button_Log in'))
 
-WebUI.click(findTestObject('Object Repository/login-logout/Page_STORE/a_PRODUCT STORE'))
+WebUI.click(findTestObject('login-logout/Page_STORE/a_Welcome akaza'))
 
