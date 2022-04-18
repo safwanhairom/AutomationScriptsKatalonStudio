@@ -1,2 +1,2 @@
 # AutomationScripts-DemoBlazeWeb
-# test scenario inside the project folder
+## test scenario inside the project folder
