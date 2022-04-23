@@ -74,7 +74,7 @@ class loginStep {
 		WebUI.takeScreenshot()
 		WebUI.closeBrowser()
 	}
-	
+
 	@Then("Wrong message displayed empty field")
 	def WrongEmptyMessageHomePage(){
 		WebUI.takeScreenshot()

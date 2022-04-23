@@ -19,13 +19,19 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.demoblaze.com/#')
+WebUI.navigateToUrl('https://www.demoblaze.com/')
 
-WebUI.click(findTestObject('Object Repository/login-logout/Page_STORE/a_Log in'))
+WebUI.click(findTestObject('Object Repository/sign up/positive/alphanumeric username/Page_STORE/a_Sign up'))
 
-WebUI.setText(findTestObject('Object Repository/login-logout/Page_STORE/input_Username_loginusername'), 'akaza')
+WebUI.click(findTestObject('Object Repository/sign up/positive/alphanumeric username/Page_STORE/form_Username                              _e8be8d'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/login-logout/Page_STORE/input_Password_loginpassword'), 'P3OjW+VyDdAcmEtvlJgtAQ==')
+WebUI.setText(findTestObject('Object Repository/sign up/positive/alphanumeric username/Page_STORE/input_Username_sign-username'), 
+    'akaza123@#')
 
-WebUI.click(findTestObject('Object Repository/login-logout/Page_STORE/button_Log in'))
+WebUI.setEncryptedText(findTestObject('Object Repository/sign up/positive/alphanumeric username/Page_STORE/input_Password_sign-password'), 
+    'tzH6RvlfSTg=')
+
+WebUI.click(findTestObject('Object Repository/sign up/positive/alphanumeric username/Page_STORE/button_Sign up'))
+
+WebUI.closeBrowser()
 

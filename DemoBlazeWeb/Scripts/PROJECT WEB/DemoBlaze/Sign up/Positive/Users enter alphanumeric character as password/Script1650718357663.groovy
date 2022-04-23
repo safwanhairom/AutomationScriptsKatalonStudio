@@ -19,13 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://www.demoblaze.com/#')
+WebUI.navigateToUrl('https://www.demoblaze.com/')
 
-WebUI.click(findTestObject('Object Repository/login-logout/Page_STORE/a_Log in'))
+WebUI.click(findTestObject('Object Repository/sign up/positive/alphanumeric pwd/Page_STORE/a_Sign up'))
 
-WebUI.setText(findTestObject('Object Repository/login-logout/Page_STORE/input_Username_loginusername'), 'akaza')
+WebUI.setText(findTestObject('Object Repository/sign up/positive/alphanumeric pwd/Page_STORE/input_Username_sign-username'), 
+    'babai')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/login-logout/Page_STORE/input_Password_loginpassword'), 'P3OjW+VyDdAcmEtvlJgtAQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/sign up/positive/alphanumeric pwd/Page_STORE/input_Password_sign-password'), 
+    'B/lGlISbwPRGXFIYd3KM3Q==')
 
-WebUI.click(findTestObject('Object Repository/login-logout/Page_STORE/button_Log in'))
+WebUI.click(findTestObject('Object Repository/sign up/positive/alphanumeric pwd/Page_STORE/button_Sign up'))
+
+WebUI.closeBrowser()
 
