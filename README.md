@@ -30,9 +30,9 @@ This is list things you need before you can execute my sample project.
   ```sh
   (https://www.selenium.dev/documentation/webdriver/getting_started/install_library/)
   ```
-* Java Latest
+* Java
   ```sh
- (https://www.java.com/en/download)
+  https://www.java.com/en/download
   ```
   
 <!-- USAGE EXAMPLES -->
