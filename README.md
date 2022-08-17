@@ -32,7 +32,7 @@ This is list things you need before you can execute my sample project.
   ```
 * Java Latest
   ```sh
- (https://www.java.com/en/download/help/windows_manual_download.html)
+ (https://www.java.com/en/download)
   ```
   
 <!-- USAGE EXAMPLES -->
