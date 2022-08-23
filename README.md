@@ -40,5 +40,11 @@ This is list things you need before you can execute my sample project.
 
 You can use this project as template to start your automation script using katalon studio and selenium library
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- TEAMCITY EXAMPLES -->
+## Usage
+
+TeamCity integration test
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
   
 
